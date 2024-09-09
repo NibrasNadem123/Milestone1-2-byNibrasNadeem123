@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 3px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 1px;
+}
+section {
+    margin-top: 20px;
+}
+
+#personalinformation{
+        position: fixed;         /* Sidebar stays fixed on the screen */
+        left: 0;  
+        top:0;               /* Align to the left */
+        width: 250px;            /* Width of the sidebar */
+        height: 100%;            /* Full height of the screen */
+        background-color:rgb(4, 4, 143);  /* Dark background */
+        color: white;            /* Text color */
+        padding: 10px;
+        margin-top: 0%;
+        border-radius: 1.5rem;
+}
+.content{
+    margin-left: 350px;       /* Push the content to the right, making space for the sidebar */
+    padding: 20px;
+}
+h1{
+    margin-left: 350px;       /* Push the content to the right, making space for the sidebar */
+    padding: 0px;
+}
+#personalinformation #toggleButton{
+    color:rgb(4, 4, 143);
+    background-color: white;
+}
+#skills{
+    display: block;
+
+}
+#toggleButton{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 2rem;
+}
